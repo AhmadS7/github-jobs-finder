@@ -9,7 +9,7 @@ const ACTIONS = {
 };
 
 const BASE_URL =
-  'https://cors-anywhere.herokuapp.com/https://jobs.github.com/positions.json';
+  'https://secret-ocean-49799.herokuapp.com/https://jobs.github.com/positions.json';
 
 function reducer(state, action) {
   switch (action.type) {
